@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+	<title>Funcions3</title>	
+</head>
+<body>
+	<script>
+		class Ordinador{
+			constructor(marca, model,ram,cap,polz) {
+				//tipeof.marca!="string"
+				while (marca==null){
+					console.log("la marca és necessari");
+				}
+				while (model==null){
+					console.log("la model és necessari");
+				}
+				if (ram=null){
+					ram=4;
+				}
+				if (polz==null){
+					polz=17;
+				}
+				if(cap==null){
+					cap=512;
+				}
+               
+				this.model=model;
+				this.marac=marca;
+				this.ram=ram;
+				this.polz=polz;
+				this.cap==cap;	
+				
+		}
+		}
+		class Portatil extends Ordinador{
+			
+		}
+	
+	</script>
+</body>
+</html>
